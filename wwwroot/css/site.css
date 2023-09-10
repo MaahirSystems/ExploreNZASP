@@ -16,3 +16,18 @@ html {
 body {
   margin-bottom: 60px;
 }
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #f4f4f4;
+}
+.logo img {
+    max-width: 150px; /* Adjust based on your logo size */
+    height: auto;
+}
+.contact-info {
+    display: flex;
+    gap: 10px;
+}
